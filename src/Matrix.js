@@ -57,7 +57,7 @@ class Matrix {
 
 
 let m = new Matrix(3, 4)
-m.print()
+// m.print()
 //prints
 /*
 1       2       3       4
@@ -68,8 +68,8 @@ m.print()
 // m.printColumn(0) //prints 6, 5, 9 (separate lines)
 // m.printRow(0) //prints 6, 2, 3, 4 (separate lines)
 
-console.log(m.findCoordinate(12)) //prints {x: 3, y: 2}
-console.log(m.findCoordinate(7)) //prints {x: 2, y: 1}
+// console.log(m.findCoordinate(12)) //prints {x: 3, y: 2}
+// console.log(m.findCoordinate(7)) //prints {x: 2, y: 1}
 
 
 
